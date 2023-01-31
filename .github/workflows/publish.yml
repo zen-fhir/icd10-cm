@@ -59,7 +59,7 @@ jobs:
       - name: 'Publish updated ICD-10-CM FTR and zen package'
         run: |
           cd /tmp/ftr-git-repo && \
-          clj -X ftr.ci-pipelines.icd10.core/pipeline \
+          clojure -X ftr.ci-pipelines.icd10.core/pipeline \
           :gs-object-url '"gs://ftr/icd10cm"' \
           :gs-ftr-object-url '"gs://ftr"' \
           :working-dir-path '"'$WORKING_DIR_PATH'"'
