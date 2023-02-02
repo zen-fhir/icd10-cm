@@ -67,5 +67,5 @@ jobs:
           :tg-channel-id '"'$TG_FTR_UPDATES_CHAT_ID'"' \
           :gs-object-url '"gs://ftr/icd10cm"' \
           :gs-ftr-object-url '"gs://ftr"' \
-          :working-dir-path '"'$WORKING_DIR_PATH'"'
+          :working-dir-path '"'$WORKING_DIR_PATH'"' \
           :ci-run-url '"https://github.com/'$GITHUB_REPOSITORY'/actions/runs/'$GITHUB_RUN_ID'"'
