@@ -8,7 +8,7 @@
   #{{:fhir/url "http://hl7.org/fhir/sid/icd-10",
      :zen.fhir/content :bundled}},
   :uri "http://hl7.org/fhir/ValueSet/icd-10",
-  :version "April-1-2023-Update",
+  :version "2024",
   :ftr
   {:module "icd10cm",
    :source-url "https://storage.googleapis.com",
